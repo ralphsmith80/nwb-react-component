@@ -9,7 +9,7 @@ import {
 let Demo = React.createClass({
   render() {
     return <div>
-      <h1>my-component Demo</h1>
+      <h1>nwb-react-component Demo</h1>
       <FirstComponent />
       <SecondComponent />
     </div>
