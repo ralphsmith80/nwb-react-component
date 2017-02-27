@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 export default React.createClass({
   render() {
@@ -6,4 +6,9 @@ export default React.createClass({
       <h2>Welcome to React components</h2>
     </div>
   }
-})
+})*/
+
+import FirstComponent from './FirstComponent'
+import SecondComponent from './SecondComponent'
+
+export {FirstComponent, SecondComponent}

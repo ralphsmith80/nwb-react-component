@@ -1,13 +1,17 @@
 import React from 'react'
 import {render} from 'react-dom'
 
-import Component from '../../src'
+import {
+  FirstComponent,
+  SecondComponent,
+} from '../../src'
 
 let Demo = React.createClass({
   render() {
     return <div>
       <h1>my-component Demo</h1>
-      <Component/>
+      <FirstComponent />
+      <SecondComponent />
     </div>
   }
 })
